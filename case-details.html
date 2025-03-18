@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Case Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            width: 90%;
+            max-width: 500px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+        .technician-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+        .info {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .support {
+            font-weight: bold;
+            color: #0078D4;
+            margin-top: 20px;
+        }
+        .animate-logo {
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" class="logo animate-logo" alt="Microsoft Logo">
+        <h2>Case ID: 668902</h2>
+        <p class="info">This case has been assigned to:</p>
+        <img src="https://randomuser.me/api/portraits/men/45.jpg" class="technician-img" alt="Technician Photo">
+        <h3>Jacob Miller</h3>
+        <p class="info">Position: Senior Support Technician</p>
+        <p class="info">Department: Microsoft Technical Support</p>
+        <p class="info">Email: jacob.miller@microsoft.com</p>
+        <p class="info">Phone: +1 509 873 7581</p>
+        <p class="support">For further assistance, contact Microsoft Support at +1 509 873 7581</p>
+    </div>
+</body>
+</html>
